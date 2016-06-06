@@ -1,0 +1,97 @@
+body{
+
+}
+
+
+#canvasHere {
+    width: 640px;
+    height: 400px;
+    border: 1px solid #000000;
+    margin: 5px;
+    float: left;
+}
+
+/*#mainCanvas{*/
+    /*width: 640px;*/
+    /*height: 320px;*/
+/*}*/
+
+
+*{
+    font-family: "Consolas", "Menlo", "Courier", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0;
+    /*background-color: #bdc3c7;*/
+    padding-top: 20px;
+    height: 50px;
+
+}
+
+#leftSide{
+    margin-top: 5px;
+    margin-left: -326px;
+    width: 50%;
+    height: 400px;
+    float: left;
+    /*background-color: #bdc3c7;*/
+}
+
+/*#inputdiv p{*/
+    /*text-align: right;*/
+/*}*/
+
+#rightSide{
+    margin-top: 5px;
+    margin-right: -326px;
+    width: 50%;
+    float: right;
+    /*background-color: #bdc3c7;*/
+    height: 400px;
+
+}
+
+#inputdiv{
+    margin-top: 30px;
+    width: 330px;
+    float: right;
+}
+
+#outupdiv{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 330px;
+    float: left;
+}
+
+input{
+    margin: 5px;
+}
+
+input[type=text]{
+    width: 100px;
+}
+
+input{
+
+}
+
+#guide{
+    width: 700px;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+

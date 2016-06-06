@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="plp/app.css"/>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script src="jquery.min.js"></script>
+        <script src="inside.js"></script>
+        <script src="draw.js"></script>
+        <link href="app.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Hello Shapes!</h1>
+        <div id="leftSide">
+                <div id="inputdiv">
+                    <p>Point</p>
+                    <input type="text" id="pointX" placeholder="x-coordinate">
+                    <input type="text" id="pointY" placeholder="y-coordinate">
+                    <input type="button" id="pointSubmit" value="submit">
+                    <br>
+                    <p>Polyline</p>
+                    <input type="text" id="line" placeholder="input points">
+                    <input type="button" id="lineSubmit" value="submit">
+                    <br>
+                    <p>Polygon</p>
+                    <input type="text" id="polygon" placeholder="input points">
+                    <input type="button" id="polygonSubmit" value="submit">
+                    <br>
+                    <p>Beeline</p>
+                    <input type="text" id="beeline-P" placeholder="point number">
+                    <input type="text" id="beeline-L" placeholder="line number">
+                    <input type="button" id="beelineSubmit" value="submit">
+                </div>
+            </div>
+            <div id="canvasHere"><canvas id="mainCanvas" width="640px" height="400px"></canvas></div>
+            <div id="rightSide">
+                <div id="outupdiv">
+                    <div id="featureList">
+                        <ul>
+
+                        </ul>
+                    </div>
+                <div id="detailList">
+
+                </div>
+            </div>
+        </div>
+    <!--<div id="guidediv">-->
+        <!--<ul id="guide">-->
+            <!--<li>Guide</li>-->
+            <!--<li>Input x-coordinate and y-coordinate,then click the submit button,the point will show in the canvas.And name of the point you just create will show on the right side.</li>-->
+            <!--<li>Input point numbers with ',' between them,e.g."1,2,3,4"(the number of the point must already exist)in Polyline or Polygon.Click submit to let them show in canvas and on the right of canvas. </li>-->
+            <!--<li>In beeline part,input line number and point number,then click submit,it will alert the beeline from the point to the line .</li>-->
+            <!--<li>Click item in the shape list,feature's detail will appear on the bottom of the list.</li>-->
+        <!--</ul>-->
+    <!--</div>-->
+    </body>
+</html>
